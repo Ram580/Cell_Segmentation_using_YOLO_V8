@@ -7,7 +7,6 @@ from cellSegmentation.exception import AppException
 from cellSegmentation.entity.config_entity import DataIngestionConfig
 from cellSegmentation.entity.artifacts_entity import DataIngestionArtifact
 
-
 class DataIngestion:
     def __init__(self, data_ingestion_config: DataIngestionConfig = DataIngestionConfig()):
         try:
